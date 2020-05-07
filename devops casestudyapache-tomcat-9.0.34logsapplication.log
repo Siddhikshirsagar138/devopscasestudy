@@ -290,7 +290,10 @@ Identify and stop the process that's listening on port 8085 or configure this ap
 2020-05-07 18:45:07.032 [INFO ] [http-nio-8085-exec-3] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-05-07 18:45:07.034 [INFO ] [http-nio-8085-exec-3] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2020-05-07 18:45:07.058 [INFO ] [http-nio-8085-exec-3] o.s.w.s.DispatcherServlet - Completed initialization in 21 ms
+<<<<<<< HEAD
 2020-05-07 19:18:19.912 [INFO ] [Thread-25] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 2020-05-07 19:18:19.917 [INFO ] [Thread-25] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2020-05-07 19:18:19.933 [INFO ] [Thread-25] c.z.h.HikariDataSource - HikariPool-5 - Shutdown initiated...
 2020-05-07 19:18:20.074 [INFO ] [Thread-25] c.z.h.HikariDataSource - HikariPool-5 - Shutdown completed.
+=======
+>>>>>>> 67f4aa1bd74a431d30e02502bb671f92fe698e68
