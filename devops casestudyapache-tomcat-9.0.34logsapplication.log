@@ -289,3 +289,4 @@ Identify and stop the process that's listening on port 8085 or configure this ap
 2020-05-07 18:29:44.388 [INFO ] [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
 2020-05-07 18:45:07.032 [INFO ] [http-nio-8085-exec-3] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-05-07 18:45:07.034 [INFO ] [http-nio-8085-exec-3] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-07 18:45:07.058 [INFO ] [http-nio-8085-exec-3] o.s.w.s.DispatcherServlet - Completed initialization in 21 ms
