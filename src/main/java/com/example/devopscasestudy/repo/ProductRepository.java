@@ -13,6 +13,7 @@ public interface ProductRepository extends JpaRepository<Product,Integer> {
 	List<Product> deleteById(int productId);
 	List<Product> findById(int productId);
 	List<Product> findByPriceGreaterThan(double price);
+	List<Product> findByProductNameIgnoreCase(String  productName);
 }
 
 
