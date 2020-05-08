@@ -3,6 +3,9 @@ package com.example.devopscasestudy.api;
 import java.util.List;
 
 import javax.validation.Valid;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -21,6 +24,7 @@ import com.example.devopscasestudy.repo.ProductRepository;
 
 @RestController            //to expose us rest api
 public class ProductAPI {
+	private final Logger logger = LoggerFactory.getLogger(getClass());
 
 	@Autowired             //look for productrepository obj and inject it here
 	private ProductRepository productRepository;
@@ -29,6 +33,7 @@ public class ProductAPI {
 	//app.get('/products',(req,res)=>)	
 	@GetMapping("/products")
 	public ResponseEntity<List<Product>> findAll(){
+		logger.info("processing finadall request");
 		List<Product> products=productRepository.findAll();
 		return new ResponseEntity<List<Product>>(products,HttpStatus.OK);
 	}
